@@ -1,0 +1,6 @@
+ChangeLog
+=========
+
+Version 2.0
+
+	i) Initial Release
