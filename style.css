@@ -1,13 +1,12 @@
 /*
-Theme Name: Kurama Pro
-Theme URI:  https://rohitink.com/2016/01/05/kurama-multipurpose-theme/
-Author: Rohit Tripathi
-Author URI: http://rohitink.com
-Description: Pro Version of Kurama WordPress Theme.
-Version: 2.0.4
+Theme Name: SCTS-Kurama
+Author: Aaron Salyer
+Author URI: http://www.sctscomputing.com
+Description: Modified Version of Kurama Pro for SCTS Computing
+Version: 2.0.4.1
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Text Domain: kurama
+Text Domain: scts-kurama
 Tags: white, light, custom-background, two-columns, one-column, custom-colors, flexible-header, theme-options, right-sidebar, responsive-layout, custom-menu, theme-options, threaded-comments, translation-ready, featured-images, photoblogging, full-width-template, blue
 
 
@@ -20,6 +19,8 @@ Resetting and rebuilding styles have been helped along thanks to the fine work o
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
+
+Original Kurama Theme by Rohit Tripathi - http://rohitink.com
 */
 
 /*--------------------------------------------------------------

@@ -28,7 +28,7 @@ function kurama_customize_register_social( $wp_customize ) {
 					'apple' => __('Apple','kurama'),
 					'dribbble' => __('Dribbble','kurama'),
 					'foursquare' => __('FourSquare','kurama'),
-					'git' => __('Git','kurama'),
+					'github' => __('GitHub','kurama'),
 					'linkedin' => __('Linked In','kurama'),
 					'paypal' => __('PayPal','kurama'),
 					'pinterest-p' => __('Pinterest','kurama'),
@@ -40,6 +40,8 @@ function kurama_customize_register_social( $wp_customize ) {
 					'wordpress' => __('WordPress','kurama'),
 					'yelp' => __('Yelp','kurama'),
 					'vk' => __('VK.com','kurama'),
+					'phone' => __('Phone Number','kurama'),
+					'envelope' => __('Support Email','kurama')
 				);
 				
 	$social_count = count($social_networks);
@@ -91,7 +93,7 @@ function kurama_customize_register_social( $wp_customize ) {
 					'apple',
 					'dribbble',
 					'foursquare',
-					'git',
+					'github',
 					'linkedin',
 					'paypal',
 					'pinterest-p',
@@ -102,7 +104,9 @@ function kurama_customize_register_social( $wp_customize ) {
 					'windows',
 					'wordpress',
 					'yelp',
-					'vk'
+					'vk',
+					'phone',
+					'envelope'
 				);
 		if ( in_array($input, $social_networks) )
 			return $input;

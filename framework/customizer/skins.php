@@ -62,6 +62,7 @@ function kurama_customize_register_skins( $wp_customize ) {
 	);
 	
 	$skins = array( 'default' => __('Default (Brown)','kurama'),
+					'scts' => __('SCTS','kurama'),
 					'orange' =>  __('Orange','kurama'),
 					'darkblue' => __('Dark Blue','kurama'),
 					'grayscale' => __('Grayscale','kurama'),
@@ -81,7 +82,7 @@ function kurama_customize_register_skins( $wp_customize ) {
 	);
 	
 	function kurama_sanitize_skin( $input ) {
-		if ( in_array($input, array('default','orange','brown','green','grayscale','custom', 'blue', 'darkblue','yellow','slick','brie','custom') ) )
+		if ( in_array($input, array('default','scts','orange','brown','green','grayscale','custom', 'blue', 'darkblue','yellow','slick','brie','custom') ) )
 			return $input;
 		else
 			return '';

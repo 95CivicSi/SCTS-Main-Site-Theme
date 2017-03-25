@@ -1,0 +1,23 @@
+#contact-icons {
+  text-align: center;
+  margin-top: 10px;
+}
+#contact-icons .contact-icon {
+  display: inline-block;
+  background: rgba(20, 20, 20, 0.5);
+  color: #fcfcfc;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 4px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 55px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+#contact-icons .contact-icon:hover {
+  background: rgba(20, 20, 20, 0.2);
+  color: #8800cc;

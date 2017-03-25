@@ -14,9 +14,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<?php printf( __( 'Designed by %1$s.', 'kurama' ), '<a href="'.esc_url("https://inkhive.com/").'" rel="nofollow">InkHive WordPress Themes</a>' ); ?>
-			<span class="sep"></span>
 			<?php echo ( get_theme_mod('kurama_footer_text') == '' ) ? ('&copy; '.date('Y').' '.get_bloginfo('name').__('. All Rights Reserved. ','kurama')) : esc_html( get_theme_mod('kurama_footer_text') ); ?>
+			<span class="sep"></span>
+			<?php printf( __('%1$s'),'<a href="'.esc_url("http://www.sctscomputing.com/credits").'" rel="designer">Credits</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 	
